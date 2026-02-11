@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SosCode - Advanced FullStack Portfolio
 
-## Getting Started
+Welcome to **SosCode**, a high-performance, visually stunning portfolio template built with the modern web stack. This project is designed to impress with smooth GSAP animations, 3D interactive elements, and a fully dynamic theme system.
 
-First, run the development server:
+![Premium Design](https://img.shields.io/badge/Design-Premium-gold?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![GSAP](https://img.shields.io/badge/GSAP-3.14-green?style=for-the-badge)
+![Tailwind](https://img.shields.io/badge/Tailwind-4.0-blue?style=for-the-badge)
+
+---
+
+## ✨ Key Features
+
+- **🌐 Interactive 3D Globe**: A high-performance, customizable globe component for the contact section (built with COBE).
+- **🎭 GSAP Orchestration**: Advanced scroll-triggered animations and entry sequences for a cinematic experience.
+- **🎨 Dynamic Theme System**: Switch between multiple professional color palettes (Red, Orange, Cyan, Pink, Yellow) in real-time.
+- **📱 Ultra Responsive**: Optimized for every screen size, from mobile to ultra-wide displays.
+- **💳 PayPal Integration**: Pre-configured checkout flow for open-source code purchases or donations.
+- **✨ Magic UI & Shadcn**: Utilizes cutting-edge UI components for a polished, state-of-the-art look.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Animations**: [GSAP](https://greensock.com/gsap/) & [Framer Motion](https://www.framer.com/motion/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Components**: [Shadcn UI](https://ui.shadcn.com/) & [Magic UI](https://magicui.design/)
+- **Smooth Scroll**: [Lenis](https://lenis.darkroom.engineering/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd portafolio-gsap
+```
+
+### 2. Install Dependencies
+
+We recommend using **pnpm** or **npm**:
+
+```bash
+npm install
+# or
+pnpm install
+```
+
+### 3. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Customizing Themes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can easily add or modify themes in the `components/background-provider.tsx` file. Each theme supports:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `primary`: The main accent color.
+- `secondary`: The contrast background/accent color.
+- `primaryLight` / `primaryDark`: Variations for gradients and depth.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## � Support & Purchase
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you find this project useful or would like to purchase a commercial license for your own projects, you can support the development here:
+
+[![PayPal - Support](https://img.shields.io/badge/PayPal-Buy_me_a_coffee-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/ncp/payment/9N8LA5PMUVXMA)
+
+---
+
+If you purchased this code via the PayPal link in the footer, you are granted a commercial license to use this template for your personal or client projects. Redistribution of the raw source code is not permitted.
+
+---
+
+Crafted with ❤️ by **SosCode**n](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
