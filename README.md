@@ -38,8 +38,8 @@ Follow these steps to set up the project locally:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd portafolio-gsap
+git clone https://github.com/SosCod/soscode-portfolio
+cd soscode-portfolio
 ```
 
 ### 2. Install Dependencies
